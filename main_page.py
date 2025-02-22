@@ -5,6 +5,8 @@ import requests
 import plotly.express as px
 import datetime
 import time
+from pages import several 
+from pages import single 
 
 # from streamlit_lottie import st_lottie
 # import json
