@@ -21,10 +21,10 @@ st.title("🏠 Главная страница")
 st.title("Анализ закупок и тендеров")
 
 
-
-
-st.page_link("/Users/alina/Desktop/feb_22/pages/single.py", label="📊 Аналитика по определенному ЕНС ТРУ коду")
-st.page_link("/Users/alina/Desktop/feb_22/pages/several.py", label="📊 Сравнительная аналитика по нескольким ЕНС ТРУ кодам")
+st.sidebar.selectbox("/Users/alina/Desktop/feb_22/pages/single.py", label="📊 Аналитика по определенному ЕНС ТРУ коду")
+st.sidebar.selectbox("/Users/alina/Desktop/feb_22/pages/several.py", label="📊 Сравнительная аналитика по нескольким ЕНС ТРУ кодам")
+# st.page_link()
+# st.page_link()
 
 # st.page_link("pages/contacts.py", label="📞 Контакты")
 
